@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "אבן אמטיסט",
+      "price": 80,
+      "description": "אבן של רוגע, אינטואיציה והגנה אנרגטית.",
+      "image": "../img/6578cd138ae7f3f90c67bcdc_5.webp",
+      "productCode": "AMT001",
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "אבן רוז קוורץ",
+      "price": 70,
+      "description": "מחזקת אהבה עצמית, שלווה וריפוי רגשי.",
+      "image": "../img/9524e4b5-b0fd-4b2b-b5d4-edf6a2bfc293.jpg",
+      "productCode": "RQZ002",
+      "inStock": false
+    },
+    {
+      "id": "3",
+      "name": "אבן טורמלין שחור",
+      "price": 90,
+      "description": "להגנה אנרגטית וסילוק אנרגיות שליליות.",
+      "image": "../img/amis-ab-hlidh-shl-fbrvar-929452_1732x.webp",
+      "productCode": "BLT003",
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "אבן סיטרין",
+      "price": 85,
+      "description": "לשפע, ביטחון עצמי ויצירתיות.",
+      "image": "../img/DOJ_ RoseQuartzLoveStone_1920x1080.webp",
+      "productCode": "CTR004",
+      "inStock": true
+    },
+    {
+      "id": "5",
+      "name": "אבן לפיס לזולי",
+      "price": 95,
+      "description": "לעומק רוחני, תקשורת פנימית וחכמה עתיקה.",
+      "image": "../img/druse-284144_1280.jpg",
+      "productCode": "LPS005",
+      "inStock": false
+    },
+    {
+      "id": "6",
+      "name": "אבן קרנליאן",
+      "price": 75,
+      "description": "מחזקת אנרגיה, יצירתיות ותשוקה לחיים.",
+      "image": "../img/gems-836763_1280.jpg",
+      "productCode": "CRN006",
+      "inStock": true
+    }
+  ]
+  
