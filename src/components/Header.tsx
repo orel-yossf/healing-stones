@@ -1,6 +1,9 @@
 import { FaBagShopping } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { CiPhone } from "react-icons/ci";
+import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
+
 const Header = () => {
     return (
     //   <header className="bg-blue-600 text-white p-4">
@@ -14,29 +17,24 @@ const Header = () => {
     <nav>
       <ul className="flex space-x-6 text-lg">
         <li>
-          <a href="/gallery" className="hover:text-pink-600 transition duration-300">
-          <FaSearch />
-          </a>
-        </li>
-        <li>
-          <a href="/gallery2" className="hover:text-pink-600 transition duration-300">
+          <Link to="/Cart" className="hover:text-pink-600 transition duration-300">
           <FaBagShopping />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/About" className="hover:text-pink-600 transition duration-300">
+          <Link to="/About" className="hover:text-pink-600 transition duration-300">
             אודות
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" className="hover:text-pink-600 transition duration-300">
-            בית
-          </a>
+          <Link to="/" className="hover:text-pink-600 transition duration-300">
+          <FaHome />
+          </Link>
         </li>
         <li>
-          <a href="/Navbar" className="hover:text-pink-600 transition duration-300">
+          <Link to="/Navbar" className="hover:text-pink-600 transition duration-300">
           <CiPhone />
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

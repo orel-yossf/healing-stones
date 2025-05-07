@@ -1,16 +1,10 @@
 import React from 'react';
+import { Product } from '../interfaces/product';
+import { useCart } from '../context/CartContext';
 
-interface Product {
-  id?: string;
-  name: string;
-  price: number;
-  description: string;
-  image: string;
-  productCode?: string;
-  inStock: boolean;
-}
+const ProductCard: React.FC<Product> = ({ id, name, price, description, image, productCode, inStock }: Product) => {
+  const { addToCart } = useCart(); // ✅ נכון: הקריאה ל-hook בתוך הקומפוננטה
 
-const ProductCard: React.FC<Product> = ({ name,  price,  description,  image,  productCode,  inStock}) => {
   return (
     <div className="border rounded-xl shadow-md p-4 bg-white hover:shadow-lg transition-all">
       <img src={image} alt={name} className="w-full h-48 object-cover rounded-md mb-4" />
@@ -20,11 +14,25 @@ const ProductCard: React.FC<Product> = ({ name,  price,  description,  image,  p
       <p className="text-sm text-gray-500 mb-4">קוד מוצר: {productCode}</p>
 
       {inStock ? (
-        <button className="bg-teal-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-teal-600 transition">
-          הוספה לעגלה
+        <button
+          className="w-full bg-gradient-to-r from-teal-400 to-teal-600 text-white font-bold py-2 px-4 rounded-lg hover:from-teal-500 hover:to-teal-700 transition-all shadow-md"
+          onClick={() =>
+            addToCart({
+              id,
+              name,
+              price,
+              description,
+              image,
+              productCode,
+              inStock, quantity: 1,
+            })
+          }
+          
+        >
+          הוספה לעגלה 🛒
         </button>
       ) : (
-        <div className="text-red-500 font-semibold">אזל מהמלאי</div>
+        <div className="text-red-500 font-semibold text-center">אזל מהמלאי</div>
       )}
     </div>
   );
