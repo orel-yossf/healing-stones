@@ -1,5 +1,4 @@
 import { FaBagShopping } from "react-icons/fa6";
-import { FaSearch } from "react-icons/fa";
 import { CiPhone } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";

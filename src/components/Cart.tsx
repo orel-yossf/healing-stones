@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+
 import { useCart } from "../context/CartContext";
 import Header from "./Header";
-import { FaTrash } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 const Cart = () => {
   const { cart, removeFromCart } = useCart();

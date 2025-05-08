@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, ReactNode } from "react";
 import { Product } from "../interfaces/product";
-import { useEffect } from "react";
 
 // טיפוס חדש שמרחיב את Product עם quantity
 export interface CartItem extends Product {
