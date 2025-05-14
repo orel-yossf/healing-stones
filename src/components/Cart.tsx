@@ -29,12 +29,12 @@ const Cart = () => {
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center justify-between border p-4 rounded-lg shadow"
+                className="flex items-center justify-between border p-4 rounded-lg shadow bg-white/70 backdrop-blur-sm hover:backdrop-blur-md transition duration-300"
               >
                 <div>
                   <p className="font-bold">{item.name}</p>
-                  <p className="text-sm text-gray-600">כמות: {item.quantity}</p>
-                  <p className="text-sm text-gray-600">מחיר ליחידה: ₪{item.price}</p>
+                  <p className="text-sm text-blue-400">כמות: {item.quantity}</p>
+                  <p className="text-sm text-blue-400">מחיר ליחידה: ₪{item.price}</p>
                 </div>
                 <button
                   onClick={() => removeFromCart(item.id)}
@@ -47,7 +47,7 @@ const Cart = () => {
           </div>
 
           <div className="mt-6 text-right">
-            <p className="text-lg font-semibold mb-2">סה"כ לתשלום: ₪{totalPrice}</p>
+            <p className="text-lg font-semibold mb-2 backdrop-blur-sm">סה"כ לתשלום: ₪{totalPrice}</p>
 
           </div>
           <a

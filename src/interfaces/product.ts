@@ -6,4 +6,5 @@ export interface Product {
     image: string;
     productCode?: string;
     inStock: boolean;
+    longDescription?: string; 
   }

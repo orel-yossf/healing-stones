@@ -1,8 +1,7 @@
-import { FaBagShopping } from "react-icons/fa6";
 import { CiPhone } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-
+import { GiShoppingCart } from "react-icons/gi";
 const Header = () => {
     return (
     //   <header className="bg-blue-600 text-white p-4">
@@ -17,7 +16,7 @@ const Header = () => {
       <ul className="flex space-x-6 text-lg">
         <li>
           <Link to="/Cart" className="hover:text-pink-600 transition duration-300">
-          <FaBagShopping />
+          <GiShoppingCart />
           </Link>
         </li>
         <li>
