@@ -4,7 +4,7 @@
     "name": "אבן אמטיסט",
     "price": 80,
     "description": "אבן של רוגע, אינטואיציה והגנה אנרגטית.",
-    "image": "../../src/assets/img/amis-ab-hlidh-shl-fbrvar-929452_1732x.webp",
+    "image": "../img/amis-ab-hlidh-shl-fbrvar-929452_1732x.webp",
     "productCode": "AMT001",
     "inStock": true,
     "longDescription": ""
@@ -14,7 +14,7 @@
     "name": "אבן רוז קוורץ",
     "price": 70,
     "description": "מחזקת אהבה עצמית, שלווה וריפוי רגשי.",
-    "image": "../../src/assets/img/DOJ_ RoseQuartzLoveStone_1920x1080.webp",
+    "image": "../img/DOJ_ RoseQuartzLoveStone_1920x1080.webp",
     "productCode": "RQZ002",
     "inStock": false,
     "longDescription": "אבן האהבה והלב הפתוח. מקדמת קבלה עצמית, חמלה, וריפוי רגשי עדין. מרגיעה מתחים, משפרת מערכות יחסים ותומכת בריפוי הלב מכל פגיעה רגשית."
@@ -24,7 +24,7 @@
     "name": "אבן טורמלין שחורה",
     "price": 90,
     "description": "להגנה אנרגטית וסילוק אנרגיות שליליות.",
-    "image": "../../src/assets/img/שחורה.jpg",
+    "image": "../img/שחורה.jpg",
     "productCode": "BLT003",
     "inStock": true,
     "longDescription": ""
@@ -34,7 +34,7 @@
     "name": "אבן סיטרין",
     "price": 85,
     "description": "לשפע, ביטחון עצמי ויצירתיות.",
-    "image": "../../src/assets/img/סיטרין.jpg",
+    "image": "../img/סיטרין.jpg",
     "productCode": "CTR004",
     "inStock": true,
     "longDescription": ""
@@ -44,7 +44,7 @@
     "name": "אבן לפיס לזולי",
     "price": 95,
     "description": "לעומק רוחני, תקשורת פנימית וחכמה עתיקה.",
-    "image": "../../src/assets/img/druse-284144_1280.jpg",
+    "image": "../img/druse-284144_1280.jpg",
     "productCode": "LPS005",
     "inStock": false,
     "longDescription": ""
@@ -54,7 +54,7 @@
     "name": "אבן קרנליאן",
     "price": 75,
     "description": "מחזקת אנרגיה, יצירתיות ותשוקה לחיים.",
-    "image": "../../src/assets/img/gems-836763_1280.jpg",
+    "image": "../img/gems-836763_1280.jpg",
     "productCode": "CRN006",
     "inStock": true,
     "longDescription": ""
@@ -64,7 +64,7 @@
     "name": "עין החול (Goldstone)",
     "price": 75,
     "description": "מחזקת אנרגיה, יצירתיות ותשוקה לחיים.",
-    "image": "../../src/assets/img/עיןהחתול.webp",
+    "image": "../img/עיןהחתול.webp",
     "productCode": "CRN006",
     "inStock": true,
     "longDescription": "אבן מלאכותית אך עוצמתית, ידועה כמעודדת שאפתנות, חיוביות והתמדה. היא מחזקת ביטחון עצמי, מעניקה הגנה אנרגטית ומביאה אור פנימי ורוגע בעשייה היומיומית."
@@ -74,7 +74,7 @@
     "name": "אבן אקווה מרין",
     "price": 88,
     "description": "מרגיעה ומחזקת תקשורת רגשית ואינטואיציה.",
-    "image": "../../src/assets/img/אקווה.webp",
+    "image": "../img/אקווה.webp",
     "productCode": "AQM008",
     "inStock": true,
     "longDescription": "אקווה מרין היא אבן של רוגע, תקשורת פתוחה ואיזון רגשי. מחזקת ביטוי אישי, מפיגה פחדים ותומכת בריפוי אנרגטי עמוק דרך יסוד המים ועדינות הלב."
@@ -84,7 +84,7 @@
     "name": "קלצייט חום",
     "price": 65,
     "description": "לחימום אנרגטי, עיכול רגשי וריפוי בטן.",
-    "image": "../../src/assets/img/קלציית חום.webp",
+    "image": "../img/קלציית חום.webp",
     "productCode": "CAL009",
     "inStock": true,
     "longDescription": "קלצייט חום מסייע בחימום אנרגטי של אזור הבטן, מווסת רגשות עמוקים ותומך ברגיעה ובתחושת ביטחון פנימי. מצוין לעיכול רגשי וריפוי טראומות מהעבר."
@@ -94,7 +94,7 @@
     "name": "ענבר (Amber)",
     "price": 100,
     "description": "לריפוי עתיק, ניקוי אנרגטי והגנה עדינה.",
-    "image": "../../src/assets/img/ענבר.webp",
+    "image": "../img/ענבר.webp",
     "productCode": "AMB010",
     "inStock": true,
     "longDescription": "הענבר מחבר לאנרגיה עתיקה, מסייע בפיזור אנרגיות שליליות, מרגיע ומחזק את מערכת החיסון. משרה חום פנימי, איזון רגשי והגנה רכה על הילד הפנימי."
@@ -104,7 +104,7 @@
     "name": "רודוקורסייט (Rhodochrosite)",
     "price": 110,
     "description": "לריפוי רגשי עמוק ואהבה עצמית.",
-    "image": "../../src/assets/img/רודו.webp",
+    "image": "../img/רודו.webp",
     "productCode": "RDC011",
     "inStock": true,
     "longDescription": "אבן עוצמתית לריפוי הלב מאכזבות ופצעים רגשיים. מעודדת אהבה עצמית, קבלה, חמלה ורכות פנימית. תומכת בריפוי טראומות ובחיבור מחדש לשמחת החיים."
